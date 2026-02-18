@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twilight Imperium 4 - Rules Q&A</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Twilight Imperium 4</h1>
+            <h2>Rules Q&A Reference</h2>
+        </header>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label for="search">Search:</label>
+                <input type="text" id="search" placeholder="Search questions or answers...">
+            </div>
+            
+            <div class="filter-group">
+                <label for="source-filter">Filter by Source:</label>
+                <select id="source-filter">
+                    <option value="">All Sources</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="tag-filter">Filter by Tag:</label>
+                <select id="tag-filter">
+                    <option value="">All Tags</option>
+                </select>
+            </div>
+            
+            <button id="reset-filters" class="btn-reset">Reset Filters</button>
+        </div>
+
+        <div class="results-info">
+            <span id="results-count">Loading...</span>
+        </div>
+
+        <div id="qa-container" class="qa-container">
+            <div class="loading">Loading Q&A data...</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

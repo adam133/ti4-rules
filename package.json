@@ -1,0 +1,22 @@
+{
+  "name": "ti4-rules-qa",
+  "version": "1.0.0",
+  "description": "Twilight Imperium 4 Rules Q&A Reference",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "twilight-imperium",
+    "rules",
+    "reference"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
